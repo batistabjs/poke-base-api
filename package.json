@@ -1,0 +1,13 @@
+{
+  "name": "poke-base-api",
+  "version": "1.0.0",
+  "description": "API RESTful para cadastro e gerenciamento de Pokémons",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["pokemon", "api", "rest"],
+  "author": "Poke Base Team",
+  "license": "MIT"
+}
