@@ -4,9 +4,7 @@ services:
     image: poke-base-api:local
     container_name: poke-base-api
     ports:
-      - "9192:9192"
-    environment:
-      - PORT=9192
+      - "9192:8082"
     volumes:
       - ./dados:/app/dados
     restart: unless-stopped

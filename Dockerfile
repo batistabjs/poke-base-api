@@ -7,8 +7,7 @@ COPY . .
 
 RUN chown -R node:node /app
 
-ENV PORT=9192
-EXPOSE 9192
+EXPOSE 8082
 
 USER node
 
