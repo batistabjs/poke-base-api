@@ -4,7 +4,7 @@ const jwt = require('./jwt');
 const dados = require('./dados');
 const crypto = require('crypto');
 
-const PORT = 8082;
+const PORT = Number(process.env.PORT) || 8082;
 
 const TIPOS_PERMITIDOS = [
   'normal', 'fogo', 'agua', 'eletrico', 'grama', 'gelo',
